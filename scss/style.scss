@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg,#3CCAD4,#81127a);
+    color: white;
+    min-height: 100vh;
+}
+header{
+    font-size: 1.5rem;
+}
+header,
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input ,form button{
+    padding: 0.5rem;
+    font-size:2rem;
+    border: none;
+    background: white;
+}
+form button{
+    color: #3CCAD4;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background: #3CCAD4;
+    color: white;
+}
