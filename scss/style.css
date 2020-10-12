@@ -49,4 +49,68 @@ form button:hover {
   background: #3CCAD4;
   color: white;
 }
+
+.todo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.todo li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #e2710d;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.complete-btn {
+  background: #24c53d;
+}
+
+.todo-item {
+  padding: 0rem 1rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.fas {
+  pointer-events: none;
+}
 /*# sourceMappingURL=style.css.map */

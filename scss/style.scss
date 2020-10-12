@@ -34,3 +34,48 @@ form button:hover{
     background: #3CCAD4;
     color: white;
 }
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+.todo{
+    margin:0.5rem;
+    background:white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.8s ease-in-out;
+}
+.todo li{
+    flex:1;
+}
+.trash-btn, 
+.complete-btn{
+    background:#e2710d;
+    color: white;
+    border:none;
+    padding:1rem;
+    font-size: 1rem;
+}
+.complete-btn{
+    background:#24c53d;
+}
+.todo-item{
+    padding: 0rem 1rem;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.4;
+    
+}
+
+.fas {
+    pointer-events: none;
+}
